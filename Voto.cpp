@@ -6,7 +6,7 @@
 #include "CrearHash.h"
 
 using namespace std;
-
+int Voto::indice_votacion = 0;
 Voto::Voto(string cand) {
     indice_votacion ++;
     candidato = cand;

@@ -12,7 +12,7 @@ using namespace std;
 
 class Voto {
 private:
-    int indice_votacion = 0;
+    static int indice_votacion;
     string candidato;
     string hash_voto;
 
