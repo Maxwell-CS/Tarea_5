@@ -12,16 +12,16 @@ using namespace std;
 
 class Voto {
 private:
-    int indice_votacion = 0;
+    string id_votante;
     string candidato;
     string hash_voto;
 
     string calcularHashVoto() const;
 
 public:
-    Voto(string cand);
+    Voto(string id, string cand);
 
-    int getIndice() const;
+    string getIdVotante() const;
     string getCandidato() const;
     string getHashVoto() const;
 };

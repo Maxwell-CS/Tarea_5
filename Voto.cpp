@@ -7,17 +7,17 @@
 
 using namespace std;
 
-Voto::Voto(string cand) {
-    indice_votacion ++;
+Voto::Voto(string id, string cand) {
+    id_votante = id;
     candidato = cand;
     hash_voto = calcularHashVoto();
 }
 
 string Voto::calcularHashVoto() const {
-    string datos_unidos = to_string(indice_votacion) + candidato;
+    string datos_unidos = id_votante + candidato;
     return generarHashSimulado(datos_unidos);
 }
 
-int Voto::getIndice() const { return indice_votacion; }
+string Voto::getIdVotante() const { return id_votante; }
 string Voto::getCandidato() const { return candidato; }
 string Voto::getHashVoto() const { return hash_voto; }
