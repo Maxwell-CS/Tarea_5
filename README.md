@@ -5,4 +5,4 @@
 **Integrantes:**
 * Collazos Solis, Maxwell Lupo Gregorio
 * Heredia Cadenas, Guillermo Arturo
-* Walter Sebastian Aquino Pachas
+* Aquino Pachas, Walter Sebastian
